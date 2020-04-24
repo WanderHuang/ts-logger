@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "allowJs": false,
+    "outDir": "lib",
+    "baseUrl": "./",
+    "module": "commonjs",
+    "target": "ES5",
+    "rootDir": ".",
+    "typeRoots": [
+      "./src/types",
+      "./node_modules/@types"
+    ],
+    "experimentalDecorators": true,
+    "esModuleInterop": true,
+  },
+  "include": ["src/**/*", "test/**/*"],
+  "exclude": ["node_modules"]
+}
